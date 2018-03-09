@@ -157,9 +157,9 @@ export PS1="\n$RED\u $PURPLE@ $GREEN\w $CYAN ~> $RESETCOLOR"
 export PS2=" | ~> $RESETCOLOR"' >> /etc/bash.bashrc
 
 # Get solarized themes
-wget -O solarized https://raw.githubusercontent.com/EmilLuta/Gogh/master/themes/solarized-dark-higher-contrast.sh && chmod a+x solarized && ./solarized && rm solarized
-
 wget -O solarized https://raw.githubusercontent.com/EmilLuta/Gogh/master/themes/solarized-dark.sh && chmod a+x solarized && ./solarized && rm solarized
+
+wget -O solarized https://raw.githubusercontent.com/EmilLuta/Gogh/master/themes/solarized-dark-higher-contrast.sh && chmod a+x solarized && ./solarized && rm solarized
 
 # Install chrome
 wget -O chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
