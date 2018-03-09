@@ -187,7 +187,7 @@ sudo apt update
 sudo apt install skypeforlinux
 
 # Properly set launcher left tab
-gsettings set com.canonical.Unity.Launcher favorites "['nautilus-home.desktop', 'google-chrome.desktop', 'gnome-terminal.desktop', 'unity-control-center.desktop', 'gnome-system-monitor.desktop', 'skype.desktop']"
+gsettings set com.canonical.Unity.Launcher favorites "['nautilus-home.desktop', 'google-chrome.desktop', 'gnome-terminal.desktop', 'unity-control-center.desktop', 'gnome-system-monitor.desktop', 'skypeforlinux.desktop']"
 
 # Allow plugins and Neovim to work nicely
 pip install --upgrade pip
