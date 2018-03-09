@@ -192,8 +192,8 @@ gsettings set com.canonical.Unity.Launcher favorites "['nautilus-home.desktop', 
 # Allow plugins and Neovim to work nicely
 pip install --upgrade pip
 pip3 install --upgrade pip
-pip install neovim
-pip install isort
+sudo pip install neovim
+sudo pip install isort
 sudo pip install autopep8
 sudo pip install autoflake
 
