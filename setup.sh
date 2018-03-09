@@ -205,6 +205,7 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 # EDITOR SETUP #
 ################
 
+mkdir ~/.config/nvim
 echo "\" Enable 256 colors
 set t_Co=256
 set encoding=utf-8
@@ -350,7 +351,7 @@ let g:lightline = {
       \   'gitbranch': 'fugitive#head'
       \ },
       \ }
-"
+" >> ~/.config/nvim/init.vim
 
 # Install all plugs
 nvim +'PlugInstall' +qa
